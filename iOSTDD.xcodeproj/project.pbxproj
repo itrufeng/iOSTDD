@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31C5A1849F75C36622B8754F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C5A5A88222C8CD7FAC6190 /* ViewController.swift */; };
+		31C5A3FD060DBD264FBC8884 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31C5A75D51DF1FAED3D6BD60 /* LaunchScreen.storyboard */; };
+		31C5AA452C88F47F6BD06AE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C5A9F4E3FEAA0A5BBB4822 /* AppDelegate.swift */; };
+		31C5ABBB1FF6137B7A37FEC0 /* Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C5A5F5484B36F000BF48B1 /* Shop.swift */; };
+		31C5AC190670C09983AB0396 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31C5A7C6F8B79059A03C97B4 /* Main.storyboard */; };
+		31C5AF9BBA7CBA24FFF64DAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31C5A2C0DE1AA5A58BEED911 /* Assets.xcassets */; };
+		6ED8ABF139D5F650B0BD8978 /* Pods_iOSTDD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 575AB2A5D04BAAA89CAEDCD4 /* Pods_iOSTDD.framework */; };
+		CEC077D0CA613244C6C803E6 /* Pods_iOSTDDTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D43BD994E5361C19890A0668 /* Pods_iOSTDDTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		31C5A7D3F270736012F17CED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31C5A96F4AD433E47A61F4BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31C5AF0563A40D99665C4AE1;
+			remoteInfo = iOSTDD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		280999E898E217E62273A288 /* Pods-iOSTDDTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSTDDTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSTDDTests/Pods-iOSTDDTests.release.xcconfig"; sourceTree = "<group>"; };
+		31C5A259FFD40D2F501FF81E /* iOSTDDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSTDDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31C5A2C0DE1AA5A58BEED911 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		31C5A40E37A5CAAC9FD92ADE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		31C5A5A88222C8CD7FAC6190 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		31C5A5F5484B36F000BF48B1 /* Shop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shop.swift; sourceTree = "<group>"; };
+		31C5A6880253413172A555A2 /* iOSTDD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSTDD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31C5A9F4E3FEAA0A5BBB4822 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		31C5AC675BF4D620C405C37C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		31C5AC72E72FAC7312ECCE09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		31C5AFFA4D9A5C5D0D40ABFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		575AB2A5D04BAAA89CAEDCD4 /* Pods_iOSTDD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSTDD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7904DDE83371C285EA407E3 /* Pods-iOSTDD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSTDD.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSTDD/Pods-iOSTDD.release.xcconfig"; sourceTree = "<group>"; };
+		CC1F3618D9681CCF37BFD5DE /* Pods-iOSTDDTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSTDDTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSTDDTests/Pods-iOSTDDTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D04EFB839AAEE713108FF971 /* Pods-iOSTDD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSTDD.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSTDD/Pods-iOSTDD.debug.xcconfig"; sourceTree = "<group>"; };
+		D43BD994E5361C19890A0668 /* Pods_iOSTDDTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSTDDTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31C5A007196B7627683BBAA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ED8ABF139D5F650B0BD8978 /* Pods_iOSTDD.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31C5A808B69B06933A2C3372 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC077D0CA613244C6C803E6 /* Pods_iOSTDDTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B368FBFA6F710E2C5EDBB30 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				575AB2A5D04BAAA89CAEDCD4 /* Pods_iOSTDD.framework */,
+				D43BD994E5361C19890A0668 /* Pods_iOSTDDTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		31C5A383DBFACC6A8F2335BF = {
+			isa = PBXGroup;
+			children = (
+				31C5AAD0292202E82E078061 /* Products */,
+				31C5A589B60AC8BC67D342EB /* iOSTDD */,
+				31C5A7AD8313B1F7D55689C0 /* iOSTDDTests */,
+				3764EFA8DA224AB8A5E2939E /* Pods */,
+				0B368FBFA6F710E2C5EDBB30 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		31C5A589B60AC8BC67D342EB /* iOSTDD */ = {
+			isa = PBXGroup;
+			children = (
+				31C5A40E37A5CAAC9FD92ADE /* Info.plist */,
+				31C5A2C0DE1AA5A58BEED911 /* Assets.xcassets */,
+				31C5A75D51DF1FAED3D6BD60 /* LaunchScreen.storyboard */,
+				31C5A9F4E3FEAA0A5BBB4822 /* AppDelegate.swift */,
+				31C5A7C6F8B79059A03C97B4 /* Main.storyboard */,
+				31C5A5A88222C8CD7FAC6190 /* ViewController.swift */,
+				31C5A5F5484B36F000BF48B1 /* Shop.swift */,
+			);
+			path = iOSTDD;
+			sourceTree = "<group>";
+		};
+		31C5A7AD8313B1F7D55689C0 /* iOSTDDTests */ = {
+			isa = PBXGroup;
+			children = (
+				31C5AC72E72FAC7312ECCE09 /* Info.plist */,
+			);
+			path = iOSTDDTests;
+			sourceTree = "<group>";
+		};
+		31C5AAD0292202E82E078061 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31C5A6880253413172A555A2 /* iOSTDD.app */,
+				31C5A259FFD40D2F501FF81E /* iOSTDDTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3764EFA8DA224AB8A5E2939E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D04EFB839AAEE713108FF971 /* Pods-iOSTDD.debug.xcconfig */,
+				C7904DDE83371C285EA407E3 /* Pods-iOSTDD.release.xcconfig */,
+				CC1F3618D9681CCF37BFD5DE /* Pods-iOSTDDTests.debug.xcconfig */,
+				280999E898E217E62273A288 /* Pods-iOSTDDTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31C5ACF7216B35DECBAB1618 /* iOSTDDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31C5A08B0B4DE807EE2EF6FD /* Build configuration list for PBXNativeTarget "iOSTDDTests" */;
+			buildPhases = (
+				177A37C029DD50F3FD1E2F57 /* [CP] Check Pods Manifest.lock */,
+				31C5AF835A938774B5AD1015 /* Sources */,
+				31C5A808B69B06933A2C3372 /* Frameworks */,
+				31C5AA5A6E150E279CA0766C /* Resources */,
+				9484973ADB8EDAA332CACEC2 /* [CP] Embed Pods Frameworks */,
+				576692132AFDAC50EEBE9776 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31C5A558BC70DD73B7D38F2D /* PBXTargetDependency */,
+			);
+			name = iOSTDDTests;
+			productName = iOSTDDTests;
+			productReference = 31C5A259FFD40D2F501FF81E /* iOSTDDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		31C5AF0563A40D99665C4AE1 /* iOSTDD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31C5AC49DA6C20D3C3A2451F /* Build configuration list for PBXNativeTarget "iOSTDD" */;
+			buildPhases = (
+				E642F9CDA14E97CF8894F8ED /* [CP] Check Pods Manifest.lock */,
+				31C5A0B2B201F84722BF9785 /* Sources */,
+				31C5A007196B7627683BBAA5 /* Frameworks */,
+				31C5A389E2A9C8202008679C /* Resources */,
+				1C58AA779B33EA1416A60661 /* [CP] Embed Pods Frameworks */,
+				50F723622F9BB0A70A7F1033 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSTDD;
+			productName = iOSTDD;
+			productReference = 31C5A6880253413172A555A2 /* iOSTDD.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31C5A96F4AD433E47A61F4BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = itrufeng;
+			};
+			buildConfigurationList = 31C5A805E2F8E95D68CDA512 /* Build configuration list for PBXProject "iOSTDD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 31C5A383DBFACC6A8F2335BF;
+			productRefGroup = 31C5AAD0292202E82E078061 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31C5AF0563A40D99665C4AE1 /* iOSTDD */,
+				31C5ACF7216B35DECBAB1618 /* iOSTDDTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31C5A389E2A9C8202008679C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31C5AF9BBA7CBA24FFF64DAF /* Assets.xcassets in Resources */,
+				31C5A3FD060DBD264FBC8884 /* LaunchScreen.storyboard in Resources */,
+				31C5AC190670C09983AB0396 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31C5AA5A6E150E279CA0766C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		177A37C029DD50F3FD1E2F57 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSTDDTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1C58AA779B33EA1416A60661 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSTDD/Pods-iOSTDD-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50F723622F9BB0A70A7F1033 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSTDD/Pods-iOSTDD-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		576692132AFDAC50EEBE9776 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSTDDTests/Pods-iOSTDDTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9484973ADB8EDAA332CACEC2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-iOSTDDTests/Pods-iOSTDDTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSTDDTests/Pods-iOSTDDTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E642F9CDA14E97CF8894F8ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSTDD-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31C5A0B2B201F84722BF9785 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31C5AA452C88F47F6BD06AE3 /* AppDelegate.swift in Sources */,
+				31C5A1849F75C36622B8754F /* ViewController.swift in Sources */,
+				31C5ABBB1FF6137B7A37FEC0 /* Shop.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31C5AF835A938774B5AD1015 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		31C5A558BC70DD73B7D38F2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31C5AF0563A40D99665C4AE1 /* iOSTDD */;
+			targetProxy = 31C5A7D3F270736012F17CED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		31C5A75D51DF1FAED3D6BD60 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31C5AFFA4D9A5C5D0D40ABFF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		31C5A7C6F8B79059A03C97B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31C5AC675BF4D620C405C37C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		31C5A005BC058F35A91E0984 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7904DDE83371C285EA407E3 /* Pods-iOSTDD.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iOSTDD/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.itrufeng.iOSTDD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		31C5A143B76EB0C7BCBBFA6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		31C5A2D0E33DB8BD485795B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D04EFB839AAEE713108FF971 /* Pods-iOSTDD.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iOSTDD/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.itrufeng.iOSTDD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		31C5A5D8B6BE66F57BEE0C9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC1F3618D9681CCF37BFD5DE /* Pods-iOSTDDTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOSTDD.app/iOSTDD";
+				INFOPLIST_FILE = iOSTDDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.itrufeng.iOSTDDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		31C5A63ED9AE5BA84079D7D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 280999E898E217E62273A288 /* Pods-iOSTDDTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOSTDD.app/iOSTDD";
+				INFOPLIST_FILE = iOSTDDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.itrufeng.iOSTDDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		31C5AA46F15978D4DB013C53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31C5A08B0B4DE807EE2EF6FD /* Build configuration list for PBXNativeTarget "iOSTDDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31C5A5D8B6BE66F57BEE0C9D /* Debug */,
+				31C5A63ED9AE5BA84079D7D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31C5A805E2F8E95D68CDA512 /* Build configuration list for PBXProject "iOSTDD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31C5A143B76EB0C7BCBBFA6C /* Debug */,
+				31C5AA46F15978D4DB013C53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31C5AC49DA6C20D3C3A2451F /* Build configuration list for PBXNativeTarget "iOSTDD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31C5A2D0E33DB8BD485795B4 /* Debug */,
+				31C5A005BC058F35A91E0984 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 31C5A96F4AD433E47A61F4BA /* Project object */;
+}
