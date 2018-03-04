@@ -16,5 +16,7 @@ class ViewController: UIViewController {
 
   // MARK: Actions
   @IBAction func didFoodButtonTouched(_ sender: Any) {
+    let shopViewController = ShopViewController()
+    navigationController?.pushViewController(shopViewController, animated: true)
   }
 }
