@@ -12,5 +12,11 @@ import Nimble
 
 class ShopViewControllerSpec: QuickSpec {
   override func spec() {
+    describe("viewDidLoad") {
+      context("when there is data") {
+        it("shows list") {
+        }
+      }
+    }
   }
 }
