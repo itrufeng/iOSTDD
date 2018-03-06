@@ -15,6 +15,7 @@ class ShopViewControllerSpec: QuickSpec {
     describe("viewDidLoad") {
       context("when there is data") {
         it("shows list") {
+          expect(shopViewController.tableView?.dataSource?.tableView(shopViewController.tableView!, numberOfRowsInSection: 0)).to(equal(1))
         }
       }
 
