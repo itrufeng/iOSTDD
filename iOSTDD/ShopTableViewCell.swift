@@ -7,8 +7,19 @@ import Foundation
 import UIKit
 
 class ShopTableViewCell: UITableViewCell {
-  let nameLabel = UILabel(frame: .zero)
-  let discountLabel = UILabel(frame: .zero)
+  let nameLabel = UILabel(frame: CGRect(x: 0.0, y: 0.0, width: 100, height: 20))
+  let discountLabel = UILabel(frame: CGRect(x: 0.0, y: 20.0, width: 100, height: 20))
+
+  override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
+    super.init(style: style, reuseIdentifier: reuseIdentifier)
+    contentView.addSubview(nameLabel)
+    contentView.addSubview(discountLabel)
+    discountLabel.backgroundColor = .red
+  }
+
+  required init?(coder aDecoder: NSCoder) {
+    super.init(coder: aDecoder)
+  }
 
   func configure(shop: Shop) {
     nameLabel.text = shop.name

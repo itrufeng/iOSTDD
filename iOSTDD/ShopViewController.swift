@@ -25,6 +25,10 @@ class ShopViewController: UITableViewController {
   }
 
   override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-    return tableView.dequeueReusableCell(withIdentifier: "ShopTableViewCell", for: indexPath)
+    let reusableCell = tableView.dequeueReusableCell(withIdentifier: "ShopTableViewCell", for: indexPath)
+    if let shopCell = reusableCell as? ShopTableViewCell {
+      shopCell.configure(shop: self.shop[indexPath.row])
+    }
+    return reusableCell
   }
 }
