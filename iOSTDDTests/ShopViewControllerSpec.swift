@@ -27,7 +27,12 @@ class ShopViewControllerSpec: QuickSpec {
       }
 
       context("when there is no data") {
+        beforeEach {
+          shopViewController = ShopViewController(shop: [])
+        }
+
         it("doesn't show list") {
+          expect(shopViewController?.tableView?.dataSource?.tableView(shopViewController!.tableView!, numberOfRowsInSection: 0)).to(equal(0))
         }
       }
     }
