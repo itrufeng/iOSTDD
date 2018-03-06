@@ -17,6 +17,11 @@ class ShopViewControllerSpec: QuickSpec {
         it("shows list") {
         }
       }
+
+      context("when there is no data") {
+        it("doesn't show list") {
+        }
+      }
     }
   }
 }
