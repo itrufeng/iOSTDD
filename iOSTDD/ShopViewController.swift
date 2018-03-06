@@ -14,4 +14,8 @@ class ShopViewController: UITableViewController {
   required init?(coder aDecoder: NSCoder) {
     super.init(coder: aDecoder)
   }
+
+  override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    return 1
+  }
 }
