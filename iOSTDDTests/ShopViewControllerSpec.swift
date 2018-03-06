@@ -13,9 +13,16 @@ import Nimble
 class ShopViewControllerSpec: QuickSpec {
   override func spec() {
     describe("viewDidLoad") {
+      var shopViewController: ShopViewController?
+
       context("when there is data") {
+        beforeEach {
+          let shops = [Shop(name: "黄焖鸡", avatarName: "shopIconName", rating: 4.0, discount: nil, isExpress: false, timeReliability: false)]
+          shopViewController = ShopViewController(shop: shops)
+        }
+
         it("shows list") {
-          expect(shopViewController.tableView?.dataSource?.tableView(shopViewController.tableView!, numberOfRowsInSection: 0)).to(equal(1))
+          expect(shopViewController?.tableView?.dataSource?.tableView(shopViewController!.tableView!, numberOfRowsInSection: 0)).to(equal(1))
         }
       }
 

@@ -6,5 +6,12 @@
 import Foundation
 import UIKit
 
-class ShopViewController: UIViewController {
+class ShopViewController: UITableViewController {
+  init(shop: [Shop]) {
+    super.init(style: .plain)
+  }
+
+  required init?(coder aDecoder: NSCoder) {
+    super.init(coder: aDecoder)
+  }
 }
