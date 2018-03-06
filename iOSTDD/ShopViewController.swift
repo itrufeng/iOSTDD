@@ -12,6 +12,7 @@ class ShopViewController: UITableViewController {
   init(shop: [Shop]) {
     self.shop = shop
     super.init(style: .plain)
+    tableView?.register(ShopTableViewCell.self, forCellReuseIdentifier: "ShopTableViewCell")
   }
 
   required init?(coder aDecoder: NSCoder) {
@@ -21,5 +22,9 @@ class ShopViewController: UITableViewController {
 
   override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
     return self.shop.count
+  }
+
+  override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    return tableView.dequeueReusableCell(withIdentifier: "ShopTableViewCell", for: indexPath)
   }
 }
