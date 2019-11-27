@@ -182,7 +182,9 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
+				Base,
 			);
 			mainGroup = 31C5A383DBFACC6A8F2335BF;
 			productRefGroup = 31C5AAD0292202E82E078061 /* Products */;
@@ -240,7 +242,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-iOSTDDTests/Pods-iOSTDDTests-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-iOSTDDTests/Pods-iOSTDDTests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
 				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
 			);
@@ -251,7 +253,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSTDDTests/Pods-iOSTDDTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOSTDDTests/Pods-iOSTDDTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E642F9CDA14E97CF8894F8ED /* [CP] Check Pods Manifest.lock */ = {
